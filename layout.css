@@ -1,0 +1,22 @@
+#page {
+	margin: 0 auto;
+}
+
+/*.main-navigation {
+	width: auto !important; 
+}*/
+.header-main .main-navigation {
+	clear: none;
+	margin-top: 50px;
+}
+.header-main .main-navigation #menu-main-menu {
+	float: right;
+}
+.header-main .main-navigation .menu-item {
+	margin-right: .5em;	
+}
+
+/* single series */
+.series-head {
+	margin-bottom: 18px;
+}
