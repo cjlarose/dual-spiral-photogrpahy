@@ -1,15 +1,28 @@
+body {
+	font-size: 87.5%;
+}
 #page {
 	margin: 0 auto;
+}
+
+#masthead {
+	margin: 20px 0 20px -20px;
+	padding-bottom: 30px;
+	border-bottom: 1px dotted #ccc;
 }
 
 /*.main-navigation {
 	width: auto !important; 
 }*/
-.header-main .main-navigation {
-	clear: none;
-	margin-top: 50px;
+.header-main {
+	position: relative;
 }
-.header-main .main-navigation #menu-main-menu {
+.header-main .main-navigation {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+.header-main .main-navigation #menu-main-navigation {
 	float: right;
 }
 .header-main .main-navigation .menu-item {
