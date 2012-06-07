@@ -81,4 +81,4 @@
 <?php wp_reset_postdata(); ?>
 	</div>
 	<?php endif; ?>
-	<div id="main">
+	<div id="main" class="row">

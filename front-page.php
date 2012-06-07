@@ -5,7 +5,7 @@
 
 get_header('front'); ?>
 
-		<div id="primary" class="site-content">
+		<div id="primary" class="site-content span12">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>

@@ -1,6 +1,15 @@
 body {
 	font-size: 87.5%;
 }
+a, a:visited {
+	text-decoration: none;
+	color: #456785;
+}
+a:hover {
+	color: #4567ca;
+	text-decoration: none;
+	border-bottom: 1px solid #0066cc;
+}
 #page {
 	margin: 0 auto;
 }
@@ -26,10 +35,30 @@ body {
 	float: right;
 }
 .header-main .main-navigation .menu-item {
-	margin-right: .5em;	
+	margin-left: 1em;	
+	font-size: 115%;
+}
+.header-main a {
+	border: 0 none;
 }
 
 /* single series */
 .series-head {
 	margin-bottom: 18px;
+}
+
+#secondary h1 {
+	font-size: 14px; 
+	font-weight: bold;
+}
+#secondary ul {
+	list-style: none;
+	margin-left: 0;
+}
+
+.entry-title {
+	margin-bottom: .75em;
+}
+#lightbox a {
+	border: 0 none;
 }
