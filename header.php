@@ -65,7 +65,7 @@
 	<?php if(is_front_page()): ?>
 	<div id="series-preview">
 <?php
-	$series_query = new WP_Query(array('post_type'=>'kali_series'));
+	$series_query = new WP_Query(array('post_type'=>'kali_series', 'posts_per_page' => 4, 'orderby' => 'rand'));
 ?>
 		<ul class="thumbnails">
 				<?php while ( $series_query->have_posts() ) : $series_query->the_post(); ?>
