@@ -3,6 +3,7 @@ body {
 	background: #2d2d2d url('images/background.png') no-repeat scroll center top;
 	color: #989898;
 }
+/* Generic elements */
 a, a:visited {
 	text-decoration: none;
 	color: #989898;
@@ -12,17 +13,17 @@ a:hover {
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
 }
-#page {
-	margin: 0 auto;
-}
+h1, h2 {font-weight: normal;}
+h3, h4, h5, h6 {font-weight: bold;}
+h2 {margin-bottom: .5em;}
 
+/* Global elements */
 #masthead {
 	background: transparent url('images/header.png') repeat-x scroll left top;
 	height: 140px;
 	padding-top: 16px;
 	margin-bottom: 20px;
 }
-
 .header-main .container {
 	position: relative;
 }
@@ -38,7 +39,10 @@ a:hover {
 	margin-left: 1em;	
 	font-size: 115%;
 }
-.header-main a:hover {
+.header-main h1 a {
+	border: 0 none;
+}
+.main-navigation a:hover {
 	border-bottom: solid #989898 2px;
 	padding-bottom: 2px;
 }
@@ -46,6 +50,29 @@ a:hover {
 .site-footer {
 	text-align: center;
 	margin: 4.5em 0;
+}
+
+/* Series sidebar */
+#series-sidebar {
+}
+#series-sidebar h2 {
+}
+#series-sidebar a:first-child {
+	font-size: 1.1em;
+	line-height: 2em;
+}
+.thumbnail {
+	background-color: #222222;
+	border-color: #222;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.25);
+}
+a.thumbnail:hover {
+	border-color: #989898;
+	-webkit-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
 
 /* single series */

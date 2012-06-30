@@ -5,13 +5,13 @@
 
 get_header(); ?>
 
-<div id="series-sidebar" class="span4">
+<div id="series-sidebar" class="span3">
 <?php
 get_sidebar('series');
 ?>
 </div>
 
-		<div id="primary" class="site-content span8">
+		<div id="primary" class="site-content span8 offset1">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>

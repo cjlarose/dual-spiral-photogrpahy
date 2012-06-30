@@ -47,20 +47,22 @@
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="header-main site-header" role="banner">
 		<div class="container">
-			<hgroup class="span6">
-				<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="DualSpiral Photography">
-					<span class="assistive-text">	<?php bloginfo( 'name' ); ?></span>
-				</a></h1>
-				<h2 class="site-description assistive-text"><?php bloginfo( 'description' ); ?></h2>
-			</hgroup>
+			<div class="row">
+				<hgroup class="span6">
+					<h1 class="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="DualSpiral Photography">
+						<span class="assistive-text">	<?php bloginfo( 'name' ); ?></span>
+					</a></h1>
+					<h2 class="site-description assistive-text"><?php bloginfo( 'description' ); ?></h2>
+				</hgroup>
 
-			<nav role="navigation" class="site-navigation main-navigation span6">
-				<h1 class="assistive-text"><?php _e( 'Menu', '_s' ); ?></h1>
-				<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
+				<nav role="navigation" class="site-navigation main-navigation span6">
+					<h1 class="assistive-text"><?php _e( 'Menu', '_s' ); ?></h1>
+					<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', '_s' ); ?>"><?php _e( 'Skip to content', '_s' ); ?></a></div>
 
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-			</nav>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				</nav>
+			</div>
 		</div>
 	</header><!-- #masthead .site-header -->
 
