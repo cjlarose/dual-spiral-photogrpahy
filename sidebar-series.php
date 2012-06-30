@@ -2,7 +2,9 @@
 $series_query = new WP_Query(array(
 	'post_type'=>'kali_series', 
 //	'posts_per_page' => 4, 
-	'orderby' => 'rand'
+	//'orderby' => 'rand'
+	'orderby' => 'date',
+	'order' => 'desc'
 ));
 ?>
 <div id="series-preview">

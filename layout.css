@@ -1,6 +1,6 @@
 body {
 	font-size: 87.5%;
-	background: #2d2d2d url('images/background.png') no-repeat scroll center top;
+	background: #2d2d2d url('images/background.png') no-repeat fixed center top;
 	color: #989898;
 }
 /* Generic elements */
@@ -11,7 +11,7 @@ a, a:visited {
 a:hover {
 	color: #bcbcbc;
 	text-decoration: none;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #989898;
 }
 h1, h2 {font-weight: normal;}
 h3, h4, h5, h6 {font-weight: bold;}
