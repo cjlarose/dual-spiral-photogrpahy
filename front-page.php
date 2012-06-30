@@ -3,9 +3,15 @@
  * Template: Front Page
  */
 
-get_header('front'); ?>
+get_header(); ?>
 
-		<div id="primary" class="site-content span12">
+<div id="series-sidebar" class="span4">
+<?php
+get_sidebar('series');
+?>
+</div>
+
+		<div id="primary" class="site-content span8">
 			<div id="content" role="main">
 
 			<?php if ( have_posts() ) : ?>
@@ -36,4 +42,4 @@ get_header('front'); ?>
 			</div><!-- #content -->
 		</div><!-- #primary .site-content -->
 
-<?php get_footer('front'); ?>
+<?php get_footer(); ?>

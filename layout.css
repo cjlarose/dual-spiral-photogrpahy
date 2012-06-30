@@ -19,6 +19,7 @@ a:hover {
 	background: transparent url('images/header.png') repeat-x scroll left top;
 	height: 140px;
 	padding-top: 16px;
+	margin-bottom: 20px;
 }
 
 .header-main .container {
