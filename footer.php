@@ -14,7 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			Theme by <a href="http://cjlarose.com">Chris LaRose</a>
+			Designed and developed by <a href="http://cjlarose.com">Chris LaRose</a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer .site-footer -->
 </div><!-- #page .hfeed .site -->
