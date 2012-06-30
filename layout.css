@@ -75,6 +75,11 @@ a.thumbnail:hover {
 	box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.3);
 }
 
+/* Series archive */
+.page-header {
+	border: 0 none;
+}
+
 /* single series */
 .series-head {
 	margin-bottom: 18px;
